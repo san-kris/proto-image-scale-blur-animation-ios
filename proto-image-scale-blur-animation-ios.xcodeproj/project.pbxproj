@@ -13,6 +13,7 @@
 		AA12CDE129C8D2B6004251EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12CDDF29C8D2B6004251EE /* Main.storyboard */; };
 		AA12CDE329C8D2B8004251EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA12CDE229C8D2B8004251EE /* Assets.xcassets */; };
 		AA12CDE629C8D2B8004251EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA12CDE429C8D2B8004251EE /* LaunchScreen.storyboard */; };
+		AA12CE0E29C932E3004251EE /* Extension-UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12CE0D29C932E3004251EE /* Extension-UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AA12CDE229C8D2B8004251EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA12CDE529C8D2B8004251EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA12CDE729C8D2B8004251EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA12CE0D29C932E3004251EE /* Extension-UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AA12CDE229C8D2B8004251EE /* Assets.xcassets */,
 				AA12CDE429C8D2B8004251EE /* LaunchScreen.storyboard */,
 				AA12CDE729C8D2B8004251EE /* Info.plist */,
+				AA12CE0D29C932E3004251EE /* Extension-UIView.swift */,
 			);
 			path = "proto-image-scale-blur-animation-ios";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA12CE0E29C932E3004251EE /* Extension-UIView.swift in Sources */,
 				AA12CDDE29C8D2B6004251EE /* ViewController.swift in Sources */,
 				AA12CDDA29C8D2B6004251EE /* AppDelegate.swift in Sources */,
 				AA12CDDC29C8D2B6004251EE /* SceneDelegate.swift in Sources */,
